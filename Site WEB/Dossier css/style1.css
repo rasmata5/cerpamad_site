@@ -1,0 +1,251 @@
+@font-face /* prise en compte de toutes les  polices disponibles*/
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embeddedopentype'),
+    url('polices/ballpark.woff') format('woff'),
+    url('polices/ballpark.ttf') format('truetype'),
+    url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face/* mise en forme et choix de ma police */
+    {
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embeddedopentype'),
+    url('polices/dayrom.woff') format('woff'),
+    url('polices/dayrom.ttf') format('truetype'),
+    url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+body/* corps de la page */
+{
+ margin-left:5%; margin-right:5%; margin-bottom:5%; margin-color:grey;  
+    background: #c8ecea ; 
+    font-family: 'Times New Roman', Times, serif;
+}
+#bloc_page
+{
+    width: 900px ;
+    margin: auto ;
+}
+
+#titre_principal
+{
+    display: inline-block ;
+}
+header h2
+{
+    font-family: Algerian, Geneva, Tahoma, sans-serif ;
+    font-size: 3em ;
+    font-weight: bolder ;
+    border width: 3px; 
+    border color: orange; 
+    border-style: double; 
+    border-top-right-radius: 15px; 
+    border-bottom-left-radius: 15px;
+    color:maroon ;
+    text-shadow: 3px 3px 3px grey;
+}
+
+header h3
+
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.1em ;
+    margin-top: 0px ;
+    font-weight: normal ;
+    text-decoration: underline ;
+    color:maroon;
+}
+/*-------     ------------------------------------------------------------------------------------------------------*/
+nav
+{
+    background-color: blue ; 
+    display: inline-block ;
+    text-align: center;
+    width: 100% ;
+}
+nav ul
+{
+    list-style-type: none ;
+}
+nav li
+{
+    display: inline-block ;
+    margin-right: : 123px ; 
+}
+nav a
+{
+    font-size: 2em ;
+    font-family: Cambria, Cochin, Times, 'Times New Roman', serif ;
+    padding: 3px ;
+    color: maroon ;
+    text-decoration: none ;   
+}
+
+.menu-accueil:hover{
+    border-bottom: 5px solid maroon ;
+}
+
+.menu-cv:hover{
+    border-bottom: 5px solid maroon ;
+}
+
+.menu-bonjour:hover{
+    border-bottom: 5px solid maroon ;
+}
+
+.menu-classe:hover{
+    border-bottom: 5px solid maroon ;
+ }
+
+.menu-galerie:hover{
+    border-bottom: 5px solid maroon ;
+}
+
+
+.bien{
+
+    font-size: 60px ;
+    text-align: center;
+}
+
+
+.titre {
+
+    font-size: 30px ;
+    padding-top: 20px ;
+}
+/*-----------------------------------------------------------------------------*/
+
+#bulle {
+
+    font-size: 20px ;
+    text-align: center;
+}
+
+#bulle a
+{
+    font-size: 2em ;
+    font-family: Cambria, Cochin, Times, 'Times New Roman', serif ;
+    padding: 3px ;
+    color: maroon ;
+    text-decoration: none ;
+}
+
+section  
+{
+    margin-top: 20px ;
+}
+
+article 
+{
+    border: 1px lighter black ;
+    background: #c8ecea ;
+    margin-top: 20px ;
+    width: 1040px ;
+    height: 295px;
+    font-size: 30px;
+}
+
+aside , article {
+    display: inline-block;
+}
+
+section article  ul 
+{
+     list-style-type: none ;
+}
+
+
+aside {
+    float: right;
+    width: 290px ;
+    margin-top: 20px;
+    border: 1px lighter black ;
+    background: #c8ecea ;
+    height: 275px;
+}
+
+.image {
+   
+    margin-top: -16px;
+}
+
+.NAME {
+   padding-top: 20px ;
+   padding-left: 60px;
+}
+
+.CURCUS {
+
+   padding-left: 60px;
+   font-size: 20px;
+}
+
+h3 {
+
+   color: #100c73 ;
+}
+
+h2 {
+    padding-left: 30px;
+   color: #100c73 ;
+}
+
+.nom{
+   color: #100c73 ;
+}
+
+
+.logo{
+
+   margin-left: 70px;
+   margin-right: 60px;
+   background: #c8ecea ;
+}
+
+.infos {
+
+   font-size: 20px;
+   list-style-type: none;
+}
+
+
+.grand{
+
+   margin-left: 50px;
+}
+
+.IMGA {
+
+  text-align: center;
+}
+.citation{
+    font-size: 20px;
+  text-align: center;
+  color:white;
+}
+button{
+	width: 200px;
+}
+/*-----------------------------------------------------------------------------*/
+
+footer{
+    background-color: blue ;
+    
+    margin-top : 250px;
+    padding-top: 25px;
+    padding-left: 5px;
+
+}
+
+.pied{
+    font-size:  25px;
+    color: white;
+}
+/*-----------------------------------------------------------------------------*/
